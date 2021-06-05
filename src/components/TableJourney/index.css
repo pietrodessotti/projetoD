@@ -1,0 +1,38 @@
+.table {
+  height: auto;
+  text-align: justify;
+  font-size: 19px;
+  color: #9c9a9a;
+  margin-left: 500px;
+  margin-top: -185px;
+  padding: 0 50px;
+}
+
+.table table {
+  width: 800px;
+  border-collapse: collapse;
+}
+
+.table table tr {
+  margin: 2rem;
+}
+
+.table table tr th {
+  font-weight: normal;
+  padding: 0 20px;
+}
+
+.table table tr td {
+  padding: 0.5rem 2rem;
+  text-align: justify;
+  background-color: white;
+}
+
+.table table tr td:last-child {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+.table table tr td:first-child {
+  border-radius: 0.5em 0 0 0.5em;
+}
+/*# sourceMappingURL=index.css.map */

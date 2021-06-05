@@ -1,0 +1,38 @@
+.table {
+    height: auto;
+    text-align: justify;
+    font-size: 19px;
+    color: #9c9a9a;
+    margin-left: 500px;
+    margin-top: -185px;
+    padding: 0 50px;
+
+    table {
+        width: 800px;
+        border-collapse: collapse;
+
+        tr {
+            margin: 2rem;
+
+            th {
+                font-weight: normal;
+                padding: 0 20px;
+            }
+            
+            td {
+                padding: 0.5rem 2rem;
+                
+                text-align: justify;
+                background-color: white;
+
+                &:last-child {
+                    border-radius: 0 0.5em 0.5em 0;
+                }
+
+                &:first-child {
+                    border-radius: 0.5em 0 0 0.5em;
+                }
+            }
+        }
+    }
+}

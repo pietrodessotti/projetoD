@@ -1,0 +1,50 @@
+.menu {
+  position: fixed;
+  background: -webkit-gradient(linear, left top, right top, from(#117EFF), to(#00E1FF));
+  background: linear-gradient(to right, #117EFF, #00E1FF);
+  width: 5rem;
+  max-height: 100vh;
+  height: 100vh;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.menu .borderGradient {
+  background-color: #1A1731;
+  width: 5rem;
+  height: 100%;
+  overflow: auto;
+}
+
+.menu .linksMenu {
+  list-style: none;
+}
+
+.menu .linksMenu .logo img {
+  margin: 3rem 0;
+  width: 2.5rem;
+  border: 1px solid white;
+}
+
+.menu .linksMenu .lastLinks {
+  margin-top: 13rem;
+}
+
+.menu .linksMenu hr {
+  width: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(#117EFF), to(#00E1FF));
+  background: linear-gradient(to right, #117EFF, #00E1FF);
+  height: 2px;
+  margin: auto;
+  border: none;
+}
+
+.menu .linksMenu img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  color: white;
+  width: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
