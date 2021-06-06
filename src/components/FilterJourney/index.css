@@ -5,6 +5,7 @@
 .filterMenu h1 {
   font-size: 20px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .filterMenu .filterList {
@@ -12,14 +13,21 @@
 }
 
 .filterMenu .filterList div {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0;
   margin-top: 10px;
   list-style-type: none;
+}
+
+.filterMenu .filterList div img {
+  margin-right: 10px;
+  width: 20px;
 }
 
 .filterMenu .filterList div h4 {
@@ -27,7 +35,15 @@
   text-align: justify;
 }
 
-.filterMenu .filterList div img {
+.filterMenu .filterList div p {
+  font-size: 15px;
   width: 20px;
+  height: 20px;
+  background: #117EFF;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-right: 5px;
 }
 /*# sourceMappingURL=index.css.map */

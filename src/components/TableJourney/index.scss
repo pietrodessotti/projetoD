@@ -4,7 +4,7 @@
     font-size: 19px;
     color: #9c9a9a;
     margin-left: 500px;
-    margin-top: -185px;
+    margin-top: -195px;
     padding: 0 50px;
 
     table {
@@ -12,26 +12,37 @@
         border-collapse: collapse;
 
         tr {
-            margin: 2rem;
+            border-bottom: 5px solid #dbdcdd;
 
             th {
                 font-weight: normal;
                 padding: 0 20px;
             }
-            
+
             td {
                 padding: 0.5rem 2rem;
-                
+
                 text-align: justify;
                 background-color: white;
 
                 &:last-child {
                     border-radius: 0 0.5em 0.5em 0;
+                    display: flex;
+                    align-items: center;
                 }
 
                 &:first-child {
                     border-radius: 0.5em 0 0 0.5em;
                 }
+
+                img {
+                    width: 20px;
+                }
+
+                 p {
+                    padding-left: 20px;
+                 }
+
             }
         }
     }
